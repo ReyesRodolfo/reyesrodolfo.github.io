@@ -41,7 +41,7 @@ window.onload = () => {
 };
 
 function logout() {
-  localStorage.removeItem("usuario");
-  window.location.reload();
+  localStorage.removeItem("token");
+  window.location.href = "index.html";
 }
 
