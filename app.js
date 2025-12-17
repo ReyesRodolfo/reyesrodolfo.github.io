@@ -1,4 +1,4 @@
-const API = "http://siilat.duckdns.org:5000";
+const API = "https://batman-venice-manitoba-placement.trycloudflare.com";
 
 async function login() {
   const email = document.getElementById("email").value;
